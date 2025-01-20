@@ -4,6 +4,8 @@ public class InterfaceMain {
 
     public static void main(String[] args) {
 
+        Calculator calculator = new Computer();
+
         Calculator c1 = new Iphone10();
         c1.calculate();
         Calculator c2 = new Iphone16();
@@ -15,10 +17,10 @@ public class InterfaceMain {
 
         MusicPlayer player1 = new Computer();
         player1.playMusic();
-        MusicPlayer player2 = new Iphone10();
-        player2.playMusic();
-        MusicPlayer player3 = new Iphone16();
-        player3.playMusic();
+//        MusicPlayer player2 = new Iphone10();
+//        player2.playMusic();
+//        MusicPlayer player3 = new Iphone16();
+//        player3.playMusic();
 
         System.out.println();
 
