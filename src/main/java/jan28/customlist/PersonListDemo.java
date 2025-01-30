@@ -22,7 +22,7 @@ public class PersonListDemo {
         while (iterator.hasNext()) {
             Person p = iterator.next();
             if (p.getAge() > 40) {
-                System.out.println(p);
+                System.out.println(p.getName());
             }
         }
     }
