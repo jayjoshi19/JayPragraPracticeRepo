@@ -1,9 +1,6 @@
 package jan28.set;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetDemo {
 
@@ -24,5 +21,7 @@ public class SetDemo {
         // remove the duplicate number from the list
         set = new HashSet<>(list);
         System.out.println(set);
+
+
     }
 }
