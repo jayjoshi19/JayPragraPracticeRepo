@@ -32,6 +32,7 @@ public class MapDemo {
 
         // 1. list of all the provinces
         Set<String> provinces = map.keySet();
+
         System.out.println("List of all Provinces : "+provinces);
         Collection<Integer> numberOfWalmarts = map.values();
 
