@@ -80,7 +80,7 @@ public class ArrayListDemo {
 
         System.out.println("After removing whole list 3 : "+list);
 
-        var x = "wqw";
+        //var x = "wqw";
 
     }
 }
