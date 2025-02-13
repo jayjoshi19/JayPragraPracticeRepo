@@ -12,8 +12,10 @@ public class LambdaDemo {
     public static void main(String[] args) {
 
         Greeting g = (greet) -> {
-            return "Hello, Good Morning!";
+            return greet;
         };
+
+        g.greet("Hello");
 
     }
 
